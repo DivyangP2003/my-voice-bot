@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: funky-voice-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run app.py --server.port=$PORT --server.enableCORS=false
+    envVars:
+      - key: GROQ_KEY
+        value: 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

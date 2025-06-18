@@ -1,0 +1,6 @@
+streamlit
+PyPDF2
+requests
+faster-whisper
+groq
+st_audiorec
